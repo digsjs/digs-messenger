@@ -1,0 +1,54 @@
+{
+  "name": "digs-messenger",
+  "version": "0.1.0",
+  "description": "Pub/sub messaging for Digs",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "digs-dev install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digsjs/digs-messenger.git"
+  },
+  "author": "Christopher Hiller <boneskull@boneskull.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ascoltatori": "^1.0.0",
+    "bluebird": "^2.9.34",
+    "debug": "^2.2.0",
+    "digs-common": "^0.2.1",
+    "digs-mqtt-broker": "^0.1.3",
+    "lodash": "^3.10.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "chai-as-promised": "^5.1.0",
+    "codacy-coverage": "^1.1.2",
+    "codeclimate-test-reporter": "^0.1.0",
+    "digs-dev": "^0.2.2-6",
+    "eslint": "^0.24.1",
+    "grunt": "^0.4.5",
+    "grunt-bump": "^0.3.1",
+    "grunt-cli": "^0.1.13",
+    "grunt-concurrent": "^2.0.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-dev-update": "^1.3.0",
+    "grunt-eslint": "^16.0.0",
+    "grunt-mocha-istanbul": "boneskull/grunt-mocha-istanbul#peerdeps",
+    "istanbul-harmony": "^0.3.16",
+    "jit-grunt": "^0.9.1",
+    "load-grunt-config": "^0.17.2",
+    "mocha": "^2.2.5",
+    "rewire": "^2.3.4",
+    "sinon": "^1.15.4",
+    "sinon-chai": "^2.8.0",
+    "time-grunt": "^1.2.1"
+  },
+
+  "optionalDependencies": {
+    "amqp": "^0.2.4",
+    "qlobber-fsq": "^0.3.1",
+    "redis": "^0.12.1",
+    "zmq": "^2.11.1"
+  },
+}
