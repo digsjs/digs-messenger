@@ -13,7 +13,7 @@
   "author": "Christopher Hiller <boneskull@boneskull.com>",
   "license": "MIT",
   "dependencies": {
-    "ascoltatori": "^1.0.0",
+    "ascoltatori": "^1.0.1",
     "bluebird": "^2.9.34",
     "debug": "^2.2.0",
     "digs-common": "^0.2.1",
@@ -44,11 +44,10 @@
     "sinon-chai": "^2.8.0",
     "time-grunt": "^1.2.1"
   },
-
   "optionalDependencies": {
     "amqp": "^0.2.4",
     "qlobber-fsq": "^0.3.1",
     "redis": "^0.12.1",
     "zmq": "^2.11.1"
-  },
+  }
 }
